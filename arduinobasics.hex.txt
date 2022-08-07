@@ -1,0 +1,11 @@
+digitalRead() works on all pins. It will just round the analog value received and present
+ it to you. If analogRead(A0) is greater than or equal to 512, digitalRead(A0) will be 1, else 0.
+digitalWrite() works on all pins, with allowed parameter 0 or 1. 
+digitalWrite(A0,0) is the same as analogWrite(A0,0), and digitalWrite(A0,1)
+ is the same as analogWrite(A0,255)
+analogRead() works only on analog pins. It can take any value between 0 and 1023.
+analogWrite() works on all analog pins and all digital PWM pins.
+ You can supply it any value between 0 and 255
+digital pin value HIGH is same as int value 1 or logic 1 so HIGH==1
+and low value is same as innt value 0 LOW==0
+
